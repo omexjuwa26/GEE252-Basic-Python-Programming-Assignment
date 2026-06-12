@@ -10,6 +10,7 @@ print('traders:'+ str(num_traders)+ ',Type:'+str(type(num_traders)))
 print('Coordinates:'+str(location_coords)+ ', Type:'+str(type(location_coords)))
 print('Open Sundays:',is_open_sundays,', Type:', type(is_open_sundays))
 print('Average Daily Revenue per Trader:', str(float(Total_revenue/num_traders)))
+
 # Problem 2: Lists and Basic Operations 
 print("=== Problem 2 ===")
 host_countries =  ["Ghana", "Egypt", "Nigeria", "Senegal", "Cameroon"] 
@@ -19,6 +20,7 @@ host_countries.remove('Senegal')
 print('Total number of countries:', len(host_countries))
 print('alphabetical order:', sorted(host_countries))
 print('every second country:', host_countries [::2])
+
 # Problem 3: Dictionaries
 print('===Problem 3 ===')
 river_data = { 
@@ -32,6 +34,7 @@ print('river names:', list(river_data))
 print('Congo flows through', river_data['Congo']['countries'], 'countries')
 total_length = sum(river['length_km'] for river in river_data.values())
 print('total combined length:', total_length, 'km')
+
 # Problem 4: Loops
 print('=== Problem 4===')
 # Part A: For Loops
@@ -54,6 +57,7 @@ i = 501
 while i%3 != 0 or i%7 != 0:
     i += 1
 print(i)
+
 # Problem 5: Conditional Statements
 print('=== Problem 5===')
 def classify_rainfall(mm):
@@ -74,6 +78,7 @@ print('250mm:', classify_rainfall(250))
 print('150mm:', classify_rainfall(150))
 print('50mm:', classify_rainfall(50))
 print('0mm:', classify_rainfall(0))
+
 # Problem 6: Functions
 print('=== Problem 6===')
 # Part A: Basic Function
